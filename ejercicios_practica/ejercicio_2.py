@@ -11,11 +11,14 @@
 
 # Ahora los valores a operar deben ser ingresados por
 # consola con la función "input" como se ve a continuación
+from tkinter import N
+
 print('Ingrese por consola el primer número entero a operar:')
 numero_1 = int(input())
 
 print('Ingrese por consola el segundo número entero a operar:')
 numero_2 = int(input())
+
 
 # Alumno: Imprima en pantalla los dos números enteros solicitados
 # print(....)
@@ -27,9 +30,30 @@ numero_2 = int(input())
 # NOTA: No coloque usted los nùmeros y resultados, use las variables
 
 # Suma
+suma = numero_1 + numero_2
+
+print ("El resultado de la suma es:", suma)
+
+
 
 # Resta
 
+resta = numero_1 - numero_2
+
+print ("El resultado de la resta es:", resta)
+
+
+
 # División
 
+División = numero_1 / numero_2
+
+print ("El resultado de la division es", División)
+
+
+
 # Multiplicación
+
+Multiplicación = numero_1 * numero_2
+
+print ("El resultado de la multiplicacion es:", Multiplicación)

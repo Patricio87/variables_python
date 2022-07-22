@@ -21,5 +21,15 @@ print('Ingrese palabra 3:')
 palabra_3 = str(input())
 
 # De cada palabra debe tomar la primera letra y armar el acrónimo
+
+#la palabra 1 fue Patricio; La 2 Aldana y la 3ra Mateo: Me trajo este resultado: PAM
+
+caracter_inicial1 = palabra_1[0]
+caracter_inicial2 = palabra_2[0]
+caracter_inicial3 = palabra_3[0]
+
+Acronimo = caracter_inicial1 + caracter_inicial2 + caracter_inicial3
+print(Acronimo)
+
 # Ejemplo: Alumbrado, barrido y limpieza --> ABL
 # Imprimir el resultado en pantalla
