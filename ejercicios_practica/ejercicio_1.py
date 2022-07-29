@@ -1,4 +1,4 @@
-# Condicionales [Python]
+# Tipos de variables [Python]
 # Ejercicios de práctica
 
 # Autor: Inove Coding School
@@ -9,58 +9,29 @@
 
 # Ejercicios de práctica numérica
 
-# Comparadores
-# Ingrese dos números cualesquiera y realice las sigueintes
-# comparaciones entre ellos
+numero_1 = 5
+numero_2 = 7
 
-numero_1 = int(input("Ingrese el primer número:\n" )) 
+# Realizar la suma de las dos variables
+# numero_1 y numero_2
+# Almacenar el valor de la suma en una variable
+# ej:
+# operacion = .....
 
+# Imprimir en pantalla el resultado de la suma
+# print(....)
 
-numero_2 = int(input("Ingrese el segundo número:\n"))
+# Repita el procedimiento para realizar la resta
 
-
-    
-# Compare cual de los dos números es mayor
-# Imprima en pantalla según corresponda
-
-if numero_1 < numero_2:
-
-    print (numero_2,"es menor", numero_1)
-else:
-    print (numero_1,"es mayor a", numero_2)
-
-# Verifique si el numero_1 positivo, negativo o cero
-# Imprima el resultado en cada caso
-
-if numero_1 < 0:
-
-    print(numero_1, "es negativo")
-
-else:
-
-     print (numero_2, "es positivo")
+print(numero_1 + numero_2)
 
 
-# Verifique si el numero_1 es mayor a 0 y menor a 100
-# Imprima en pantalla si se cumple o no la condición
+print(numero_1 - numero_2)
 
-if numero_1 < 0 and numero_1 < 100:
+suma = (numero_1 + numero_2)
 
-    print ("numero_1 es mayor a 0 y menor a 100")
+resta = (numero_1 - numero_2)
 
-elif numero_1 > 0 and numero_2 < 100:
+print ("el resultado de restar",numero_2,"menos",numero_1,"es",resta)
 
-    print ("se cumple la condicion")
-
-
-# Verifique si el numero_1 es menor a 10 o el numero_2
-# es mayor a -2
-# Imprima en pantalla si se cumple o no la condición
-
-if numero_1 < 10 or numero_2 > -2:
-    
-    print ("es correcto")
-
-
-
-
+print ("el resultado de sumar",numero_1, "mas",numero_2,"es",suma)

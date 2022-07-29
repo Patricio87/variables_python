@@ -1,4 +1,4 @@
-# Condicionales [Python]
+# Tipos de variables [Python]
 # Ejercicios de práctica
 
 # Autor: Inove Coding School
@@ -7,64 +7,53 @@
 # IMPORTANTE: NO borrar los comentarios
 # que aparecen en verde con el hashtag "#"
 
-# Ejemplos variables de texto
+# Ejercicios de práctica numérica y consola
 
-# Comparadores
-# Ingrese dos palabras cualesquiera y realice las sigueintes
-# comparaciones entre ellas
+# Ahora los valores a operar deben ser ingresados por
+# consola con la función "input" como se ve a continuación
+from tkinter import N
 
-from xml.dom.expatbuilder import ElementInfo
+print('Ingrese por consola el primer número entero a operar:')
+numero_1 = int(input())
+
+print('Ingrese por consola el segundo número entero a operar:')
+numero_2 = int(input())
 
 
-texto_1 = str(input('Ingrese la primera palabra:\n'))
+# Alumno: Imprima en pantalla los dos números enteros solicitados
+# print(....)
 
-texto_2 = str(input('Ingrese la segunda palabra:\n'))
+# Alumno: Calcule la suma, resta, división y multiplicación de los números ingresados
+# numero_1, numero_2
+# Imprima en pantalla todos los resultados con el siguiente formato de ejemplo:
+# El resultado de sumar 4 y 2 es 6
+# NOTA: No coloque usted los nùmeros y resultados, use las variables
 
-# Compare cual de las dos palabras es mayor (alfabéticamente)
-# Imprima en pantalla según corresponda
+# Suma
+suma = numero_1 + numero_2
 
-if texto_1[0] > texto_2[0]:
-
-    print("{} es mayor que {}". format (texto_1, texto_2))
-
-else:
-
-    print(texto_2, "es mayor que" ,texto_1)
-
-# Compare cual de las dos palabras tiene mayor
-# cantidad de letras
-# Imprima en pantalla según corresponda
-
-if len(texto_1) > len(texto_2):
-
-    print ("{} tiene mas o por lo menos las mismas letras que {}" .format(texto_1,texto_2))
-
-else:
-     
-     print("{} tiene mas letras que {}" .format(texto_2,texto_1))
+print ("El resultado de la suma es:", suma)
 
 
 
-# Verifique si la primera letra de la primera palabra
-# es mayor a la primera letra de la segunda palabra
-# Imprima en pantalla según corresponda
+# Resta
 
-if texto_1[0] > texto_2[0]:
+resta = numero_1 - numero_2
 
-    print ("Primer letra de", texto_1, "es mayor a primer letra de",  texto_2)
-else: 
-    print("No es mayor")
-
-# Verifique que copia_texto_1 es igual a texto_1
-# Imprima en pantalla según corresponda
+print ("El resultado de la resta es:", resta)
 
 
-if texto_1 == texto_2:
-    print(texto_1,"es igual a", texto_2)
+
+# División
+
+División = numero_1 / numero_2
+
+print ("El resultado de la division es", División)
 
 
-# Verifique que copia_texto_1 es distinta a texto_2
-# Imprima en pantalla según corresponda
 
-if texto_1 != texto_2:
-    print('{} es distinto a {}'.format (texto_1, texto_2))
+# Multiplicación
+
+Multiplicación = numero_1 * numero_2
+
+print ("El resultado de la multiplicacion es:", Multiplicación)
